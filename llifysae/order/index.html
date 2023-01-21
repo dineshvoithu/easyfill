@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+      <title>Easy Fill</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="stylee.css">
+    
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    
+      
+    <header>
+    
+      
+      <nav class="nav">
+        <div class="container">
+          <h1 class="logo"><a href="/index.html">Easy<span>Fill</span></a></h1>
+          <ul>
+            <li><a href="http://localhost/llifysae/homepage.php">Home</a></li>
+            <li><a href="http://localhost/llifysae/aboutus.html">About</a></li>
+            <li><a href="http://localhost/llifysae/contactus.html">Contact Us</a></li>
+            <li><a href="http://localhost/llifysae/order/">Order Now </a></li>
+            <li><a href="http://localhost/llifysae/web.php">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    <br>
+    </header>
+    <title>Order Now</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Place Your Order</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="Name"> Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fame"
+                  name="name"
+                />
+              </div>
+            
+              <div class="form-group">
+                <label for="vehicletype">Vehicle Type</label>
+                <div>
+                  <label for="Bike" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="vehicletype"
+                      value="b"
+                      id="Bike"
+                    />Bike</label
+                  >
+                  <label for="car" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="vehicletype"
+                      value="c"
+                      id="car"
+                    />Car</label
+                  >
+              
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="fueltype">Fuel Type</label>
+                <div>
+                  <label for="petrol" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="fueltype"
+                      value="p"
+                      id="Petrol"
+                    />Petrol</label
+                  >
+                  <label for="diesel" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="fueltype"
+                      value="d"
+                      id="diesel"
+                    />Diesel</label
+                  >
+              
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="litres">How Many Litres</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="litres"
+                  name="litres"
+                  placeholder="Min 1 Litres  Max 50 Litres"
+                  max="50"
+                />
+              </div>
+              <div class="form-group">
+                <label for="location">Location</label>
+                <select class="form-control"  id="location"
+                name="location">
+                  <option value="Madurai">Madurai</option>
+                  <option value="Madurai">Madurai</option>
+                  <option value="Madurai">Madurai</option>
+                </select>
+                <!-- <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  name="location"
+                  placeholder="Available Only Anna Nagar Madurai"
+                /> -->
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              
+             
+              
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                  maxlength="10"
+                  minlength="10"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; EasyFill</small>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Site footer -->
+  
+
+
+
+<div>
+  
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Something</h1>
+          
+      <h2 style="color:  #1DBF73;;">Contact</h2>
+      
+      <address>
+       4/689 Gandhiji Street Anna Nagar Madurai-20<br>
+            
+        <a class="footer__btn" href="mailto:dineshkumarvoithu@gmail.com">Email Us</a>
+      </address>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Company</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Home</a>
+          </li>
+  
+          <li>
+            <a href="#contact">Contact us</a>
+          </li>
+              
+          <li>
+            <a href="#">About us</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Useful Links</h2>
+        
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Order Now</a>
+          </li>
+          
+          <li>
+            <a href="#">Register</a>
+          </li>
+          
+          <li>
+            <a href="#">Payment</a>
+          </li>
+          
+          <li>
+            <a href="#">Locations</a>
+          </li>
+          
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          
+          <li>
+            <a href="#">FAQs</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms and Conditions</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    <div class="legal">
+      <p>&copy; 2022 Something. All rights reserved.</p>
+      
+      <div class="legal__links">
+        <span>Made with Voithu Web Creation</span>
+      </div>
+    </div>
+  </footer>
+</div>
+  </body>
+</html>
